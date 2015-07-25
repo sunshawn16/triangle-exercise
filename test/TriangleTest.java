@@ -9,8 +9,13 @@ public class TriangleTest {
 
     @Test
     public void should_get_eight_asterisk_in_line_when_enter_eight(){
-        Pattern pattern= new Pattern();
+        Pattern pattern = new Pattern();
         pattern.patternGenerator(8);
+    }
+    @Test
+    public void should_get_three_asterisk_vertical_when_enter_three(){
+        Pattern pattern = new Pattern();
+        pattern.patternGeneratorVertical(3);
     }
 
 }

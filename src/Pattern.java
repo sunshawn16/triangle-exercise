@@ -1,7 +1,7 @@
 
 public class Pattern {
     String pattern = "*";
-    public Pattern(){};
+    public Pattern(){}
     public Pattern(String p){
         pattern = p;
     }
@@ -9,8 +9,14 @@ public class Pattern {
     public void patternGenerator(int n){
         for (int j = n; j > 0; j --)
         {
-            System.out.print(pattern+" ");
+            System.out.print(pattern + " ");
         }
 
+    }
+    public void patternGeneratorVertical(int n){
+        for (int j = n; j > 0; j --)
+        {
+            System.out.println(pattern);
+        }
     }
 }
