@@ -13,10 +13,23 @@ public class Pattern {
         }
 
     }
+
     public void patternGeneratorVertical(int n){
         for (int j = n; j > 0; j --)
         {
             System.out.println(pattern);
         }
     }
+
+    public void triangleGenerator(int n){
+        for (int i = 1 ; i <= n ; i ++)
+        {
+            for (int j = 0 ; j < i ;j ++)
+            {
+                System.out.print(pattern + " ");
+            }
+            System.out.print("/n");
+        }
+    }
+
 }

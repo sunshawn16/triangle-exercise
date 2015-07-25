@@ -17,5 +17,10 @@ public class TriangleTest {
         Pattern pattern = new Pattern();
         pattern.patternGeneratorVertical(3);
     }
+    @Test
+    public void should_get_triangle_when_enter_three(){
+        Pattern pattern = new Pattern();
+        pattern.triangleGenerator(3);
+    }
 
 }
