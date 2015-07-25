@@ -32,9 +32,15 @@ public class TriangleTest {
     }
 
     @Test
-    public void should_get_basicdimond_when_enter_three(){
+    public void should_get_basicdimond_when_needbasicDiamond(){
         Pattern pattern = new Pattern();
-        pattern.diamondGenerator(3);
+        pattern.basicDiamondGenerator(3);
+    }
+
+    @Test
+    public void should_get_centereddiamond_when_need_centerDiamond(){
+        Pattern pattern = new Pattern();
+        pattern.centerDiamondGenerator(3);
     }
 
 }

@@ -32,7 +32,7 @@ public class Pattern {
         }
     }
 
-    public void diamondGenerator(int n){
+    public void basicDiamondGenerator(int n){
         for (int i = n ,k = 1; i > 0  ; i --)
         {
             int T = i -1;
@@ -48,6 +48,39 @@ public class Pattern {
             System.out.print("/n");
             k ++;
         }
+    }
+
+    public void centerDiamondGenerator(int n){
+        for (int i = n ,k = 1; i > 0  ; i --)
+        {
+            int T = i -1;
+            int J= 2*k -1;
+            for (int t = 0;t < T ;t ++)
+            {
+                System.out.print(" ");
+            }
+            for (int j = 1 ; j <= J ; j ++)
+            {
+                System.out.print("*");
+            }
+            System.out.print("/n");
+            k ++;
+        }
+        for (int i = 1,k = n-1; i <n; i ++)
+        {
+            int J = 2*k -1;
+            for (int t = 0; t < i; t ++)
+            {
+                System.out.print(" ");
+            }
+            for (int j = 0 ; j < J; j++)
+            {
+                System.out.print("*");
+            }
+            System.out.print("/n");
+            k --;
+        }
+
     }
 
 }
