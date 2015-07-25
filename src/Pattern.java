@@ -32,4 +32,22 @@ public class Pattern {
         }
     }
 
+    public void diamondGenerator(int n){
+        for (int i = n ,k = 1; i > 0  ; i --)
+        {
+            int T = i -1;
+            int J= 2*k-1;
+            for (int t = 0;t < T ;t ++)
+            {
+                System.out.print(" ");
+            }
+            for (int j = 1 ; j <= J ; j ++)
+            {
+                System.out.print("*");
+            }
+            System.out.print("/n");
+            k ++;
+        }
+    }
+
 }
