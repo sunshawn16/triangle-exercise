@@ -83,4 +83,36 @@ public class Pattern {
 
     }
 
+    public void diamondWithNameGenerator(int n){
+        for (int i = n-1 ,k = 1; i > 0  ; i --)
+        {
+            int J= 2*k -1;
+            for (int t = 0;t < i ;t ++)
+            {
+                System.out.print(" ");
+            }
+            for (int j = 0 ; j < J ; j ++)
+            {
+                System.out.print("*");
+            }
+            System.out.print("/n");
+            k ++;
+        }
+        System.out.print("Bill"+"/n");
+        for (int i = 1,k = n-1; i <n; i ++)
+        {
+            int J = 2*k -1;
+            for (int t = 0; t < i; t ++)
+            {
+                System.out.print(" ");
+            }
+            for (int j = 0 ; j < J; j++)
+            {
+                System.out.print("*");
+            }
+            System.out.print("/n");
+            k --;
+        }
+    }
+
 }

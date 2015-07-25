@@ -42,5 +42,10 @@ public class TriangleTest {
         Pattern pattern = new Pattern();
         pattern.centerDiamondGenerator(3);
     }
+    @Test
+    public void shoud_get_diamondwithname(){
+        Pattern pattern = new Pattern();
+        pattern.diamondWithNameGenerator(3);
+    }
 
 }
