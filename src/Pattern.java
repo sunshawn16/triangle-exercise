@@ -1,12 +1,16 @@
 
 public class Pattern {
-    String pattern;
+    String pattern = "*";
+    public Pattern(){};
     public Pattern(String p){
         pattern = p;
     }
 
-    public void patternGenerator(){
-        System.out.println(pattern);
+    public void patternGenerator(int n){
+        for (int j = n; j > 0; j --)
+        {
+            System.out.print(pattern+" ");
+        }
 
     }
 }
