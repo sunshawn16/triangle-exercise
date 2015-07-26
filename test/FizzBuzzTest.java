@@ -6,6 +6,11 @@ public class FizzBuzzTest{
         FizzBuzz game2 =  new FizzBuzz();
         game2.play();
     }
+    @Test
+    public void should_get_Fizz_when_3_divisible(){
+        FizzBuzz game =  new FizzBuzz();
+        game.play();
+    }
 
 
 
