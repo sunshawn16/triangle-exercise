@@ -1,11 +1,7 @@
-import org.junit.Before;
+
 import org.junit.Test;
 
 public class TriangleTest {
-    @Before
-    public void before(){
-        System.out.print("before");
-    }
 
     @Test
     public void should_get_one_asterisk(){

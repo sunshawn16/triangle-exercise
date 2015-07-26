@@ -2,7 +2,7 @@
 public class FizzBuzz{
     int n;
     public FizzBuzz(){
-        n=6;
+        n=15;
     }
     public FizzBuzz(int temp ){
         n = temp;
@@ -11,9 +11,17 @@ public class FizzBuzz{
     public void play(){
         for(int i =1 ;i <= n;i ++)
         {
-            if ( i%3 ==0)
+            if ( i % 3 ==0 || i % 5 ==0 )
             {
-                System.out.println("Fizz");
+                if (  i % 3 ==0 )
+                {
+                    System.out.print("Fizz");
+                }
+                if ( i % 5 ==0 )
+                {
+                    System.out.print("Buzz");
+                }
+                System.out.print("\n");
             }
             else
             {

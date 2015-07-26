@@ -28,7 +28,7 @@ public class Pattern {
             {
                 System.out.print(pattern + " ");
             }
-            System.out.print("/n");
+            System.out.print("\n");
         }
     }
 
@@ -45,7 +45,7 @@ public class Pattern {
             {
                 System.out.print("*");
             }
-            System.out.print("/n");
+            System.out.print("\n");
             k ++;
         }
     }
@@ -63,7 +63,7 @@ public class Pattern {
             {
                 System.out.print("*");
             }
-            System.out.print("/n");
+            System.out.print("\n");
             k ++;
         }
         for (int i = 1,k = n-1; i <n; i ++)
@@ -77,7 +77,7 @@ public class Pattern {
             {
                 System.out.print("*");
             }
-            System.out.print("/n");
+            System.out.print("\n");
             k --;
         }
 
@@ -95,10 +95,10 @@ public class Pattern {
             {
                 System.out.print("*");
             }
-            System.out.print("/n");
+            System.out.print("\n");
             k ++;
         }
-        System.out.print("Bill"+"/n");
+        System.out.print("Bill"+"\n");
         for (int i = 1,k = n-1; i <n; i ++)
         {
             int J = 2*k -1;
@@ -110,7 +110,7 @@ public class Pattern {
             {
                 System.out.print("*");
             }
-            System.out.print("/n");
+            System.out.print("\n");
             k --;
         }
     }

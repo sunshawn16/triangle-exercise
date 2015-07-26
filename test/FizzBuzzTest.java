@@ -11,6 +11,11 @@ public class FizzBuzzTest{
         FizzBuzz game =  new FizzBuzz();
         game.play();
     }
+    @Test
+    public void should_get_Buzz_when_5_divisible(){
+        FizzBuzz game =  new FizzBuzz(100);
+        game.play();
+    }
 
 
 
